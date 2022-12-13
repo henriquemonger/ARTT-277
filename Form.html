@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.CSS">
+
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    body{
+        background-image: url(back2.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 50px;
+        
+    
+    }
+    .regform{
+        width: 800px;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+        margin: auto;
+        color: #ffffff;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+       
+
+    }
+    .main{
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+        width: 800px;
+        margin: auto;
+        color: #ffffff;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+       
+        
+    }
+
+    form{
+        padding: 10px;
+    }
+    .contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+ .contact-me .button-two{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+            
+
+
+ </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="regform" ><h1 style="color: white;">Registration Form</h1></div>
+    <div class="main">
+        <form>
+            <div id="name">
+                
+                <label for="fullname">Full Name:</label> 
+       <br>
+       <input type="text" name="fullname" id="Fullname" placeholder="Fullname">
+        <br><br>
+
+        <label for="Email">Email:</label> <br>
+        <input type="email" id="email" placeholder="Email"> <br><br>
+
+        <label for="password">password</label> <br>
+        <input type="password" name="password" id="password" placeholder="choose a password "> 
+        <br><br>
+        <label for="Dob"> Phone Number:</label> <br>
+        <input type="number" name="number" id="number" placeholder="enter a Number"><br> <br>
+
+        <label for="Dob"> Date of Birth:</label> <br>
+        <input type="date" name="Dob" id="date"> <br> <br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="gender"> Male
+        <input type="radio" name="gender" id="gender">Female
+        <input type="radio" name="gender" id="gender">Rather not say <br><br>
+
+        <label for="habbits">Habbits:</label><br>
+        <input type="checkbox" name="habbits" id="habbits">Reading
+        <input type="checkbox" name="habbits" id="habbits"> Writting
+        <input type="checkbox" name="habbits" id="habbits"> Spots 
+        <input type="checkbox" name="habbits" id="habbits"> Music<br><br>
+        <label for="county">county of Orgin:</label><br>
+        <select name="county" id="county">
+            <option value="county">choose the county</option>
+            <option value="">Lofa</option>
+            <option value="">Nimba</option>
+            <option value="">Bong</option>
+            <option value="">Margibi</option>
+            <option value="">Grand Bassa</option>
+        </select> <br><br>
+
+        
+        <label for="Comment">Additional Comments:</label> <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="submit"> 
+        
+        
+
+
+
+            </div>
+        
+        </form>
+    
+
+    </div>
+    <div class="contact-me">
+        <p> Let us get your child a better education</p>
+        <a class="button-two" href="index.html"> Back to Home</a>
+    
+    </div>
+    
+   
+    
+    
+    
+</body>
+</html>
